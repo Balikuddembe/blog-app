@@ -10,8 +10,8 @@ RSpec.describe Like, type: :model do
     )
 
     @post = Post.create(
-      title: 'This is my first post',
-      text: 'This is my first post text',
+      title: 'This is the first post',
+      text: 'This is the first post text',
       likes_counter: 0,
       comments_counter: 0,
       author_id: @user.id
