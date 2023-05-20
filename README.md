@@ -10,7 +10,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -73,7 +72,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone  https://github.com/Balikuddembe/blog-app-rails.git
+  git clone  https://github.com/Balikuddembe/blog-app.git
 ```
 
 -
@@ -131,7 +130,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Balikuddembe/blog-app).
+Feel free to check the [issues page](https://github.com/Balikuddembe/blog-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
