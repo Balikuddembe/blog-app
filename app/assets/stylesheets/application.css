@@ -27,14 +27,14 @@ html {
   gap: 1em;
 }
 
-.login-btn > a {
+.login-btn>a {
   padding: 10px;
   border: 1px solid black;
   text-decoration: none;
   color: #000;
 }
 
-.new-post > a {
+.new-post>a {
   text-decoration: none;
   border: 2px solid black;
   color: #000;
@@ -43,15 +43,15 @@ html {
   box-shadow: 1px 1px 1px 1px black;
 }
 
-.login-btn > a:hover {
+.login-btn>a:hover {
   background-color: rgb(217, 217, 217);
 }
 
-.new-post > p {
+.new-post>p {
   padding: 10px;
 }
 
-.new-post > a:hover {
+.new-post>a:hover {
   background-color: rgb(69, 69, 69);
   color: #fff;
 }
@@ -125,7 +125,7 @@ html {
   width: 100%;
 }
 
-.comments > p {
+.comments>p {
   padding: 5px;
 }
 
@@ -245,7 +245,7 @@ html {
   padding: 10px;
 }
 
-.add-post-btn > input {
+.add-post-btn>input {
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -277,9 +277,43 @@ html {
   align-items: center;
 }
 
-.signin-btn > input {
+.signin-btn>input {
   width: 100%;
   padding: 5px;
   box-shadow: 1px 1px 1px 1px #000;
   cursor: pointer;
+}
+
+input::placeholder {
+  color: #000;
+  font-size: 1.1em;
+}
+
+#new_user {
+  width: 70%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.field>label {
+  font-size: 1.1em;
+}
+
+.field>input {
+  padding: 10px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions>input {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
 }
